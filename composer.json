@@ -1,9 +1,9 @@
 {
-    "name": "amphp/socket",
-    "homepage": "https://github.com/amphp/socket",
-    "description": "Non-blocking socket connection / server implementations based on Amp and Revolt.",
+    "name": "imedge/amphp-socket",
+    "homepage": "https://github.com/im-edge/amphp-socket",
+    "description": "Temporarily tagged, unless upstream is ready. Non-blocking socket connection / server implementations based on Amp and Revolt.",
     "support": {
-        "issues": "https://github.com/amphp/socket/issues"
+        "issues": "https://github.com/im-edge/amphp-socket/issues"
     },
     "keywords": [
         "tcp",
@@ -29,6 +29,9 @@
             "email": "me@kelunik.com"
         }
     ],
+    "replace": {
+        "amphp/socket": "2.3.1"
+    },
     "require": {
         "php": ">=8.1",
         "ext-openssl": "*",
